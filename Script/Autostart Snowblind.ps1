@@ -40,6 +40,6 @@ else{
 }
 
 #start VLC player on the buildin display (--video-x=1920 need to be adjusted depending on resolution and position of the screen, negative value = left side)
-	& "C:\Programme\VideoLAN\VLC\vlc.exe" --no-embedded-video --audio --repeat --loop --no-random --autoscale --fullscreen --no-osd --playlist-tree --start-time= --stop-time= --video-x=1920 --video-y=1 --quiet "$($thisLoc)\$($arr[$selection])" vlc://quit
+	& "C:\Programme\VideoLAN\VLC\vlc.exe" --one-instance --no-embedded-video --audio --repeat --loop --no-random --autoscale --fullscreen --no-osd --playlist-tree --start-time= --stop-time= --video-x=1920 --video-y=1 --quiet "$($thisLoc)\$($arr[$selection])" vlc://quit
 
 
